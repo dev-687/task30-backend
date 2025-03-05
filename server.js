@@ -3,8 +3,8 @@ const cors = require('cors');
 
 // const PORT =5000;
 const app=express()
-app.use(cors({ origin: "*" }));
-app.use(express);
+app.use(cors());
+app.use(express.json());
 
 
 
